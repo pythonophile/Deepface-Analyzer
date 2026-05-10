@@ -41,7 +41,9 @@ To ensure high accuracy, this project utilizes specialized models for different 
 
 ### 1. Clone the Repository
 ``Bash
+
 git clone https://github.com/pythonophile/Deepface-Analyzer.git
+
 cd Deepface-Analyzer
 
 ### 2. Install Dependencies
@@ -49,11 +51,13 @@ Ensure you have Python installed, then run:
 
 
 ``Bash
+
 pip install -r requirements.txt
 
 
 ### 3. Run the Application
 ``Bash
+
 streamlit run app.py
 ### 📖 Educational Note for Students
 This application demonstrates how computer vision models "see." It converts pixel data into mathematical patterns, compares them against trained datasets, and outputs a prediction.
