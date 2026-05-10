@@ -40,6 +40,27 @@ To ensure high accuracy, this project utilizes specialized models for different 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/pythonophile/Deepface-Analyzer.git](https://github.com/pythonophile/Deepface-Analyzer.git)
+``Bash
+git clone https://github.com/pythonophile/Deepface-Analyzer.git
 cd Deepface-Analyzer
+
+### 2. Install Dependencies
+Ensure you have Python installed, then run:
+
+
+``Bash
+pip install -r requirements.txt
+
+
+### 3. Run the Application
+``Bash
+streamlit run app.py
+### 📖 Educational Note for Students
+This application demonstrates how computer vision models "see." It converts pixel data into mathematical patterns, compares them against trained datasets, and outputs a prediction.
+
+The Liveness Check is a critical security feature used in modern banking and identity verification systems to prevent fraud. It ensures that the AI is interacting with a live human being rather than a static image or a video replay.
+
+### 👨‍💻 Credits & Contact
+Developed by Muhammad Rizwan Khan
+
+AI Integration Engineer & Trainer
